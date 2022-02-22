@@ -28,7 +28,7 @@
     </snapshotRepository>
 </distributionManagement>
   <build>
-    <finalName>sample</finalName>
+    <finalName>showbiz</finalName>
   </build>
   <properties>
     <revision>1.1</revision>
