@@ -1,1 +1,2 @@
 use for cidc clean package deploy  -Drevision=$BUILD_ID
+wget --user=$uname --password=$pass http://54.212.236.242:8081/repository/maxgenr/com/sample/webproject/showbiz/$BUILD_ID/showbiz-$BUILD_ID.war
