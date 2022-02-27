@@ -19,12 +19,12 @@
     <repository>
       <id>nexus</id>
       <name>Releases</name>
-      <url>http://54.212.236.242:8081/repository/maven-snapshots/</url>
+      <url>http://54.212.236.242:8081/repository/maxgen/</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
       <name>Snapshot</name>
-      <url>http://54.212.236.242:8081/repository/maven-snapshots/</url>
+      <url>http://54.212.236.242:8081/repository/maxgen/</url>
     </snapshotRepository>
 </distributionManagement>
   <build>
