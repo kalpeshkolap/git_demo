@@ -31,6 +31,6 @@
     <finalName>showbiz</finalName>
   </build>
   <properties>
-    <revision>1.1</revision>
+    <revision>1.0</revision>
     </properties>
 </project>
