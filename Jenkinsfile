@@ -9,6 +9,11 @@ pipeline {
         }
         stage('building jar') {
             steps {
+                  agent {
+                      node {
+                         label "devops"
+                                }
+                            }
                 sh '''
                 cd sample
                 mvn clean install'''
