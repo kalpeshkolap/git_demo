@@ -8,11 +8,7 @@ pipeline {
             }
         }
         stage('building jar') {
-            agent {
-                node {
-                    label 'devops'
-                }
-            }
+            agent { docker 'maven:3.8.1-adoptopenjdk-11' }
             steps {
                 sh '''
                 cd sample
